@@ -1,0 +1,4 @@
+com\switchfully\domain\StockCurrency.class
+com\switchfully\domain\StockPrice.class
+com\switchfully\domain\Stock.class
+com\switchfully\domain\StockRepository.class
