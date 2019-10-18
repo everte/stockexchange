@@ -1,93 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b89e718-e94c-4f6c-a777-2fcedb795143" name="Default Changelist" comment="Update jenkins">
-      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/switchfully/stockexchange/api/StockExchangeControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/switchfully/stockexchange/api/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jar/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jar/src/main/java/com/switchfully/stockexchange/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jar/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9b89e718-e94c-4f6c-a777-2fcedb795143" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jar/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/switchfully/stockexchange/api/StockDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/switchfully/stockexchange/api/StockDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/switchfully/stockexchange/api/StockExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/switchfully/stockexchange/api/StockExchangeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/switchfully/stockexchange/api/StockDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/switchfully/stockexchange/api/StockDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/switchfully/stockexchange/api/StockExchangeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/switchfully/stockexchange/api/StockExchangeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.switchfully.stockexchange.api.StockExchangeControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.switchfully.stockexchange.api.StockExchangeControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.switchfully.stockexchange.api.StockExchangeControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/surefire-reports/com.switchfully.stockexchange.api.StockExchangeControllerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/src/main/java/com/switchfully/stockexchange/cli/MyCli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/src/test/java/com/switchfully/stockexchange/cli/MyCliTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/classes/com/switchfully/stockexchange/cli/MyCli.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/cli-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/cli-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/animal-sniffer-annotations-1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/api-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/apiguardian-api-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/assertj-core-3.13.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/checker-qual-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/commons-lang3-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/domain-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/error_prone_annotations-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/guava-28.1-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/interfaces-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/junit-jupiter-api-5.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/junit-jupiter-engine-5.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/junit-platform-commons-1.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/junit-platform-engine-1.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/opentest4j-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/surefire-api-2.22.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/lib/surefire-logger-api-2.22.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/surefire-reports/TEST-com.switchfully.stockexchange.cli.MyCliTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/surefire-reports/com.switchfully.stockexchange.cli.MyCliTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/target/test-classes/com/switchfully/stockexchange/cli/MyCliTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/domain/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/stockexchange/domain/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/domain/StockCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/stockexchange/domain/StockCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/domain/StockPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/stockexchange/domain/StockPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/domain/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/switchfully/stockexchange/domain/StockRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/switchfully/domain/StockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/switchfully/stockexchange/domain/StockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/switchfully/domain/Stock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/switchfully/domain/StockCurrency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/switchfully/domain/StockPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/switchfully/domain/StockRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/surefire-reports/TEST-com.switchfully.domain.StockTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/surefire-reports/com.switchfully.domain.StockTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/test-classes/com/switchfully/domain/StockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/target/classes/com/switchfully/stockexchange/ExternalStockInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/target/classes/com/switchfully/stockexchange/ExternalStockInformationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/target/interfaces-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/target/interfaces-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/switchfully/stockexchange/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/switchfully/stockexchange/service/StockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/switchfully/stockexchange/service/StockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/switchfully/stockexchange/service/StockService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/surefire-reports/TEST-com.switchfully.stockexchange.service.StockServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/surefire-reports/TEST-com.switchfully.stockexchange.service.StockServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/surefire-reports/com.switchfully.stockexchange.service.StockServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/surefire-reports/com.switchfully.stockexchange.service.StockServiceTest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +25,7 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -125,6 +42,7 @@
   <component name="ProjectId" id="1SHb7lCkH7VddCY02z7jxjK81TQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -143,6 +61,9 @@
       <recent name="com.switchfully.stockexchange.service" />
       <recent name="com.switchfully.domain" />
       <recent name="com.switchfully.stockexchange.cli" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_Project\switchfully\stockexchange\jar\src\main\resources\static" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.switchfully.stockexchange" />
@@ -168,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Remote.testRemoteDebug">
+  <component name="RunManager" selected="Spring Boot.JarApplication">
     <configuration name="MyCli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.switchfully.stockexchange.cli.MyCli" />
       <module name="cli" />
@@ -309,7 +230,7 @@
       <workItem from="1571250367197" duration="587000" />
       <workItem from="1571295409973" duration="2571000" />
       <workItem from="1571378236672" duration="188000" />
-      <workItem from="1571380081760" duration="17771000" />
+      <workItem from="1571380081760" duration="20848000" />
     </task>
     <task id="LOCAL-00001" summary="Update jenkins">
       <created>1571317598767</created>
@@ -318,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571317598767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add spring boot webview">
+      <created>1571404040014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571404040014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +267,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update jenkins" />
+    <MESSAGE value="Add spring boot webview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add spring boot webview" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,11 +277,6 @@
           <url>file://$PROJECT_DIR$/api/src/test/java/com/switchfully/stockexchange/api/StockExchangeControllerIT.java</url>
           <line>24</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/api/src/main/java/com/switchfully/stockexchange/api/StockExchangeController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
