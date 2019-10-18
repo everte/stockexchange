@@ -1,4 +1,4 @@
-com\switchfully\domain\StockCurrency.class
-com\switchfully\domain\StockPrice.class
-com\switchfully\domain\Stock.class
-com\switchfully\domain\StockRepository.class
+com\switchfully\stockexchange\domain\StockPrice.class
+com\switchfully\stockexchange\domain\StockCurrency.class
+com\switchfully\stockexchange\domain\Stock.class
+com\switchfully\stockexchange\domain\StockRepository.class

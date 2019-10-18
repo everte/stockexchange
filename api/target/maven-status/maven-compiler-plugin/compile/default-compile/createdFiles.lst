@@ -1,2 +1,3 @@
 com\switchfully\stockexchange\api\StockDto.class
+com\switchfully\stockexchange\api\TestApplication.class
 com\switchfully\stockexchange\api\StockExchangeController.class

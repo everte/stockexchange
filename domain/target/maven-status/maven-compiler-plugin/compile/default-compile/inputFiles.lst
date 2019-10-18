@@ -1,4 +1,4 @@
-C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\domain\Stock.java
-C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\domain\StockPrice.java
-C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\domain\StockRepository.java
-C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\domain\StockCurrency.java
+C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\stockexchange\domain\StockCurrency.java
+C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\stockexchange\domain\StockRepository.java
+C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\stockexchange\domain\StockPrice.java
+C:\_Project\switchfully\stockexchange\domain\src\main\java\com\switchfully\stockexchange\domain\Stock.java
