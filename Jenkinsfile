@@ -17,7 +17,4 @@ pipeline {
       }
     }
   }
-  tools {
-    jdk 'jdk-12'
-  }
 }
