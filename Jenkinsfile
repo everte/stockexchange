@@ -1,20 +1,18 @@
 pipeline {
-    agent any
-
-    tools {
-        jdk 'jdk-12'
+  agent any
+  stages {
+    stage('Build') {
+      steps {
+        sh 'mvn clean test-compile'
+      }
     }
-
-    stages {
-        stage('Build') {
-            steps {
-                sh 'mvn clean test-compile'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'mvn clean test'
-            }
-        }
+    stage('Test') {
+      steps {
+        sh 'mvn clean test'
+      }
     }
+  }
+  tools {
+    jdk 'jdk-12'
+  }
 }
