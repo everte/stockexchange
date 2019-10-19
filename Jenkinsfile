@@ -1,10 +1,4 @@
 pipeline {
-      agent {
-        docker {
-            image 'maven:3-alpine' 
-            args '-v /home/evert/.m2:/root/.m2' 
-        }
-    }
   stages {
     stage('Build') {
       steps {
@@ -16,5 +10,10 @@ pipeline {
         sh 'mvn clean test'
       }
     }
+  }
+  
+  tools {
+    jdk 'jdk-12'
+    maven 'maven'
   }
 }
