@@ -1,3 +1,3 @@
 # stockexchange
 stock!
-test2?
+test2
