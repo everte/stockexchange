@@ -1,3 +1,2 @@
 # stockexchange
-
-aoeu
+stock!
